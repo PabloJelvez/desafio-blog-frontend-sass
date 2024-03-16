@@ -1,0 +1,40 @@
+.post-bootstrap{
+    padding: 30px;
+
+    &__title{
+        color: black;
+        margin-bottom: 20px;
+    }
+    &__date{
+        display: flex; 
+        align-items: center;
+        padding: 20px 0;
+    }
+    &__date-parrafo{
+        margin-left: 25px;
+    }
+
+}
+.post-bootstrap__date{
+    display: flex; 
+    align-items: center;
+    padding: 20px 0;
+}
+.post-article{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 35px;
+    border-radius: 15px;
+
+    &__wrapper-parrafo{
+        margin: 20px 0;
+    }
+    &__wrapper-image{
+        text-align: center;
+    }
+    &__image{
+        border-radius: 15px;
+        width: 60%;
+    }
+}

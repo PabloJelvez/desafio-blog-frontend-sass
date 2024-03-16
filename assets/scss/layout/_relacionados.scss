@@ -1,0 +1,16 @@
+.relacionados{
+    display: flex;
+    flex-direction: column;
+
+    &__title{
+        color: black;
+        margin: 30px;
+    }
+}
+
+.relacionados-container-cards{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    padding: 40px 0;
+}

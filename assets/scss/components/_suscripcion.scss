@@ -1,0 +1,43 @@
+.suscripcion{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    background-color: $adl;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.suscripcion__wrapper-input{
+    width: 65%;
+    padding-left: 100px;
+    
+}
+.suscripcion__title{
+    color: $white;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.suscripcion__input{
+    width: 75%;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+.suscripcion__wrapper-button{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+.suscripcion__btn{
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: lightgrey;
+}

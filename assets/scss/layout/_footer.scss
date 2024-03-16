@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-top: 1px solid $secondary;
+
+    &__div-parrafo{
+        display: flex;
+        align-items: center;
+        width: 25%;
+    }
+    &__parrafo{
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
